@@ -25,6 +25,8 @@ createRoutesFromElements(
      <Route path="/admin/addcategory" element={<AddCategory/>}/>
      <Route path="admin/addproduct" element={<AddProduct/>}/>
 
+
+
   </Route>
 )
 )

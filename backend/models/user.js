@@ -20,7 +20,7 @@ userSchema.pre("save", async function (next) {
 
     const saltRounds=10;
  
- const hashpass=await bcrypt.hash(this.password,saltRounds) 
+ const hashpass= await bcrypt.hash(this.password,saltRounds) 
     this.password=hashpass;
 
 // bcrypt.hash(password,saltRounds).then((hash)=>{

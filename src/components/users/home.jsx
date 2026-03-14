@@ -1,5 +1,6 @@
 import { useEffect ,useState} from "react";
 import { useNavigate } from "react-router-dom";
+import Header from "./header";
 
 function Home(){
     const [user,setUser]=useState("")
@@ -18,6 +19,8 @@ useEffect(()=>{
             console.log(data,"s");
             if(data.error) navigate("/login")
             setUser(data.User)
+          
+        
          }
          getUser();
         }
@@ -26,8 +29,8 @@ useEffect(()=>{
 return  (
             <div>
 
-                {/* {user.fullName} */}
-s
+              {/* welcome   {user.fullName}  */}
+              <Header name={user?.fullName}/>
             </div>
 
         )
