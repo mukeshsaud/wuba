@@ -22,7 +22,7 @@ function Login(){
                     console.log(data);
                     console.log("fss")
     }
-    return (<><div class="py-20">
+    return (<><div class="py-10">
     <div class="flex h-full items-center justify-center">
         <div
             class="rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-900 flex-col flex h-full items-center justify-center sm:px-4">

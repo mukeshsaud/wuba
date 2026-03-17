@@ -27,10 +27,10 @@ useEffect(()=>{
         ,[])   
 
 return  (
-            <div>
+            <div >
 
               {/* welcome   {user.fullName}  */}
-              <Header name={user?.fullName}/>
+              <Header name={user?.fullName} />
             </div>
 
         )
