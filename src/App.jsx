@@ -15,7 +15,7 @@ function App() {
 // }
   return (
     <>
-      {<div> hlo adding new env</div>}
+      {<div> hlo </div>}
     </>
   )
 }
